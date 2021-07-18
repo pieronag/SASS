@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Se genera CSS para header */
+.header {
+  background-color: #090d19;
+  text-align: center;
+  width: 100%;
+  align-content: center; }
+
+ul {
+  list-style: none; }
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+/* Se genera CSS para menu*/
+.nav {
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  float: right;
+  list-style: none;
+  background-color: #090d19;
+  text-align: center;
+  width: 100%;
+  text-align: center; }
+  .nav li {
+    float: left; }
+    .nav li a {
+      font-family: 'Titillium Web', sans-serif;
+      background-color: #090d19;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 12px;
+      display: block; }
+    .nav li a:hover {
+      color: tomato; }
+    .nav li ul {
+      display: none;
+      position: absolute;
+      min-width: 200px;
+      list-style: none; }
+      .nav li ul li {
+        position: relative; }
+  .nav li:hover > ul {
+    display: block; }
