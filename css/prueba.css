@@ -46,3 +46,48 @@ body {
         position: relative; }
   .nav li:hover > ul {
     display: block; }
+
+.valoracion-1 {
+  width: 10px; }
+
+.valoracion-2 {
+  width: 20px; }
+
+.valoracion-3 {
+  width: 30px; }
+
+.valoracion-4 {
+  width: 40px; }
+
+.valoracion-5 {
+  width: 50px; }
+
+.valoracion-1 {
+  background-image: url("/IMG/1.jpg"); }
+
+.valoracion-2 {
+  background-image: url("/IMG/2.jpg"); }
+
+.valoracion-3 {
+  background-image: url("/IMG/3.jpg"); }
+
+.valoracion-4 {
+  background-image: url("/IMG/4.jpg"); }
+
+.valoracion-5 {
+  background-image: url("/IMG/5.jpg"); }
+
+.valor--uno {
+  background-color: #E20002; }
+
+.valor--dos {
+  background-color: #FF9F04; }
+
+.valor--tres {
+  background-color: #FFD302; }
+
+.valor--cuatro {
+  background-color: #61C902; }
+
+.valor--cinco {
+  background-color: #059F00; }

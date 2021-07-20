@@ -57,3 +57,30 @@ body{
         display:block;
     }
 }
+
+// Se generan funciones SASS
+
+@for $valoracion from 1 through 5 {
+    .valoracion-#{$valoracion}{width:10px*$valoracion}
+}
+
+@each $val in 1,2,3,4,5{
+    .valoracion-#{$val}{
+        background-image: url('/IMG/#{$val}.jpg');
+    }
+}
+
+$valor: (
+    uno: #E20002,
+    dos: #FF9F04,
+    tres: #FFD302,
+    cuatro: #61C902,
+    cinco: #059F00,
+);
+
+@each $tono, $color in $valor{
+    .valor--#{$tono}{
+        background-color: $color;
+    }
+}
+
